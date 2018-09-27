@@ -1,0 +1,408 @@
+
+.bigBlackBox {
+  
+  background-color: black;
+  height: 10px;
+  width:  100%; }
+
+
+body {
+  background-image: url("http://www.gowild.nl/call-me-joe/assets/images/bg6.gif");
+  background-size: cover;
+  text-decoration: none; 
+}
+a:hover {
+  color: rgb(168,155,89);
+  text-decoration: none; }
+
+a:visited {
+  color: rgb(168,155,89); }
+
+h1 {
+  font-family: Anton, sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-align: center; }
+
+h2 {
+  
+  font-family: Anton, sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top:3px;
+ 
+}
+
+h3 {
+  font-family: Anton, sans-serif;
+  font-size: 5rem;
+  color: rgba(0,0,0.0.3);
+  text-align: center;
+  padding-bottom:5%;}
+
+p {
+  font-family: 'PT Mono', monospace; 
+  text-align: center;
+  line-height:40px;
+  color:black;
+}
+ 
+ 
+
+/* 
+       .joesLogo {
+  font-family: Anton, sans-serif;
+  font-size: 4rem;
+  color:#9f9354;
+  background-color: black;
+  text-align: center;
+  line-height: -10px;
+  height:70px;
+  
+ }
+ 
+  .just-call-me {
+   position:relative;
+  top:-120%;      
+  height:8px;
+  font-size: 55%;
+  transform: rotate(-5deg) }
+
+.joe {
+  position:relative;
+  top:-65%;
+  height:140px;
+  font-size: 170%;
+  line-height:-60px;
+ 
+  }*/
+ 
+  
+/* ---------------------
+         LOGO
+ --------------------*/
+.joesLogo {
+  font-family: Anton, sans-serif;
+  font-size: 4rem;
+  color:#9f9354;
+  background-color: black;
+  text-align: center;
+  line-height: -10px;
+  height:70px;
+  
+ }
+ 
+  .just-call-me {
+   position:relative;
+  top:-60%;      
+  height:8px;
+  font-size: 55%;
+  transform: rotate(-5deg) }
+
+.joe {
+  position:relative;
+  top:-65%;
+  height:140px;
+  font-size: 170%;
+  line-height:-60px;
+   }
+   
+ 
+ 
+/* ---------------------
+         HEADER
+ --------------------*/  
+ 
+ .container-fluid > .navbar-collapse.my-navbar {
+  float: none !important;
+  text-align: center; }
+
+.container-fluid {
+  background: black; }
+
+
+.joesHeader img {
+
+  width: 100%; }
+
+
+.joesHeader {
+  position: relative;
+  top: -20px;
+  width: 100%;
+  background-color: none; }
+
+.titleBox {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  font-family: Anton, sans-serif;
+  font-size: 4rem;
+  color: rgb(168,155,89);
+  background-color: black;
+  text-align: center; }
+  
+/* ---------------------
+  MEMBERS OF THE BAND
+ --------------------*/  
+
+.bigBlackBox {
+  position: relative;
+  top: 20px;
+  background-color: black;
+  height: 10px;
+  width: !important 100%; }
+
+.texrCol {
+  color: #643a0d; }
+
+.joMenu {
+  color: white;
+  background-color: #f10000;
+  width: 100%; }
+
+.JoLanding {
+  background-color: black; }
+  
+  
+
+/* ---------------------
+    GROUP PHOTO
+ --------------------*/ 
+
+.joBand {
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.joBand img {
+  margin-bottom: 30px;
+  width: 300px; }
+  
+/* ---------------------
+   MEMBER OF THE GROUP
+ --------------------*/ 
+
+.joMembers {
+  Background-color: pink; }
+  
+/* ---------------------
+   BROWN TITLE BANNERS
+  --------------------*/
+
+.joDivider {
+    
+  z-index:3;    
+  text-align:center;
+  height:35px;
+  line-height:35px;
+  Background-color: black;
+  margin-bottom:0px}
+  
+  .joDivider1{
+  z-index:3;      
+  position:relative; 
+  top:0px;
+  text-align:center;
+  height:35px;
+  line-height:35px;
+  Background-color: black;
+  }
+ 
+ .one{
+  position:relative;
+  top:-20px;    
+ }
+ 
+  .two{
+   position:relative;
+  top:-40px;    
+ }
+ 
+  .three{
+   position:relative;
+  top:-60px;    
+ }
+ 
+  .four{
+   position:relative;
+  top:-80px;    
+ }
+  .five{
+   position:relative;
+  top:-100px;    
+ }
+  
+/*
+.joUpAndComingGigs {
+  background-color: red; }*/
+  
+  
+  /* ---------------------
+    HOW TO BOOK US
+  --------------------*/
+
+.salesShout {
+  font-family: Anton, sans-serif;
+  font-size: 3rem;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+
+  
+}
+
+
+.salesBabble {
+  padding-top: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-family: 'PT Mono', monospace;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.joFooter {
+  padding-top: 10px;
+  background-color: none;
+  height: 50px;
+  text-align: center;
+  color: black; }
+
+
+   
+/* ---------------------
+  UP AND COMING GIGS
+--------------------*/
+
+.gigDate1 {
+  color:white;
+  background-color: black;
+  text-align: center;
+  height:30px;
+  padding:5px;
+  
+  margin-bottom: 40px;
+  transform: rotate 3deg; }
+  
+
+
+/* ---------------------
+    MEMBERS OF THE BAND
+--------------------*/
+
+.vinyl img {
+  margin-top: 200px;
+  display: block;
+  border-radius: 50%;
+  border: 25px solid black;
+  width: 130px;
+  height: 130%;
+  margin: 0 auto; 
+  
+}
+
+.artist {
+  font-family: Anton, sans-serif;
+  font-size: 2rem;
+  color: #5f3c18;
+  text-align: center;
+
+}
+/*orange*/
+.memberBox1{
+position:relative;
+top:-20px;
+padding-top:5%;    
+width:100%;
+height:100%;
+padding-bottom:20%;
+background-color:rgba(250,142,5,0.3);
+}
+
+/*soft pink*/
+.memberBox2{
+position:relative;
+top:-40px;    
+padding-top:5%;    
+width:100%;
+height:100%;
+padding-bottom:20%;
+background-color:rgba(169,44,76,0.3);
+
+}
+/*yellow*/
+.memberBox3{
+position:relative;
+top:-60px;    
+padding-top:5%;    
+width:100%;
+height:100%;
+padding-bottom:20%;
+background-color:rgba(250,221,75,0.3);
+}
+
+/*lavender*/
+.memberBox4{
+position:relative;
+top:-80px;   
+padding-top:10%;    
+width:100%;
+height:100%;
+padding-bottom:20%;
+background-color:rgba(95,22,136,0.3);
+}
+
+/*grey*/
+.memberBox5{
+position:relative;
+top:-100px;    
+padding-top:10%;    
+width:100%;
+height:100%;
+padding-bottom:none;
+background-color:rgba(0,0,0,0.3);
+}
+
+  
+
+
+.vidScreen {
+  padding-bottom: 10px;
+  height: 100%; }
+  
+  
+.record img{
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:40px;
+  width:200px;
+    
+  }
+/* ---------------------
+    SOCIAL MEDIA
+--------------------*/
+ 
+  .socCase {
+  margin-top:30px;
+  width:100%;
+  margin-left: -1%;
+  margin-right:auto;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+
+@media (min-width: 768px) {
+  .navbar-nav > li {
+  display: inline-block; } }
+  .navbar-nav > li {
+  text-align: center;
+  float: none !important; }
+
+
+
+
