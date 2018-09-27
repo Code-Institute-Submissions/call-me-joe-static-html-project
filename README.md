@@ -14,22 +14,19 @@ The navigation lets us click smoothly to each section using an (ease in/out java
 
 In the body I have created a background compilation where we see scenes of the band playing with close-ups giving glimpses into their world of Rock & Roll. Each section is represented by a fresh transparent color connecting the whole site together. The logo was redesigned just using css and the font Anton from google fonts
 
-<a href="ideas/index.html">The sketches</a>
+The sketches:
+https://steviebolton.github.io/call-me-joe-static-html-project/ideas/
 
-The mock up photoshop:
-
-The final product:
+Deployment:
+https://steviebolton.github.io/call-me-joe-static-html-project/
 
 Testing
-The site has been vigerously tested and validated for errors. https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.gowild.nl%2Fcall-me-joe%2F
-
-Deployment
-https://www.gowild.nl/call-me-joe
+The site has tested for errors:. 
+https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.gowild.nl%2Fcall-me-joe%2F
 
 Credits
 The CSS Styling I coded myself and used bootstrap as the grid I am also responsible for logo design and bg image which was compiled photoshop.
 
 Content
-The body text was written by the band
+The body text was jointly written by the band and myself
 
-Media
