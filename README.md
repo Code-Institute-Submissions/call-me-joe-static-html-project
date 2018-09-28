@@ -17,6 +17,9 @@ In the body I have created a background compilation where we see scenes of the b
 The sketches:
 https://steviebolton.github.io/call-me-joe-static-html-project/ideas/
 
+code:
+css, javascript, html
+
 Deployment:
 https://steviebolton.github.io/call-me-joe-static-html-project/
 

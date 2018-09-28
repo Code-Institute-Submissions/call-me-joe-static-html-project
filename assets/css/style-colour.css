@@ -1,6 +1,5 @@
 
 .bigBlackBox {
-  
   background-color: black;
   height: 10px;
   width:  100%; }
@@ -17,7 +16,7 @@ a:hover {
 
 a:visited {
   color: rgb(168,155,89); }
-
+  
 h1 {
   font-family: Anton, sans-serif;
   font-size: 1rem;
@@ -27,11 +26,10 @@ h1 {
 h2 {
   
   font-family: Anton, sans-serif;
-  font-size: 25px;
+  font-size: 1.3em;
   color: white;
   text-align: center;
   padding-top:3px;
- 
 }
 
 h3 {
@@ -39,7 +37,15 @@ h3 {
   font-size: 5rem;
   color: rgba(0,0,0.0.3);
   text-align: center;
+  padding-bottom:4%;}
+  
+h4 {
+  font-family: Anton, sans-serif;
+  font-size: 1.5rem;
+  color: rgba(0,0,0.0.3);
+  text-align: center;
   padding-bottom:5%;}
+
 
 p {
   font-family: 'PT Mono', monospace; 
@@ -122,10 +128,10 @@ p {
   top: 20px;
   background-color: black;
   height: 10px;
-  width: !important 100%; }
+  width: 100% !important ;}
 
 .texrCol {
-  color: #643a0d; }
+  color: #643a0d;}
 
 .joMenu {
   color: white;
@@ -196,19 +202,26 @@ p {
   top:-60px;    
  }
  
-  .four{
-   position:relative;
-  top:-80px;    
- }
-  .five{
-   position:relative;
-  top:-100px;    
- }
- 
-   .six{
-   position:relative;
-  top:-120px;    
- }
+  .four {
+    position: relative;
+    top: -80px;
+  }
+
+  .five {
+    position: relative;
+    top: -100px;
+  }
+
+  .six {
+    position: relative;
+    top: -120px;
+  }
+
+  .footer {
+    position: relative;
+    top: -180px;
+    height: 100px;
+  }
   
 /*
 .joUpAndComingGigs {
@@ -242,7 +255,6 @@ p {
 
 .joFooter {
   padding-top: 10px;
-  background-color: none;
   height: 50px;
   text-align: center;
   color: black; }
@@ -273,18 +285,19 @@ p {
   margin-top: 200px;
   display: block;
   border-radius: 50%;
-  border: 25px solid black;
-  width: 130px;
-  height: 130%;
+  border: 30px solid black;
+  width: 140px;
+  height: 140px;
   margin: 0 auto; 
   
 }
 
 .artist {
   font-family: Anton, sans-serif;
-  font-size: 2rem;
+   font-size: 1.5rem;
   color: #5f3c18;
   text-align: center;
+  
 
 }
 /*orange*/
@@ -326,7 +339,7 @@ position:relative;
 top:-80px;   
 padding-top:10%;    
 width:100%;
-height:100%;
+height:130%;
 padding-bottom:20%;
 background-color:rgba(221,47,33,0.3);
 }
@@ -345,11 +358,11 @@ background-color:rgba(95,22,136,0.3);
 
 .memberBox6{
 position:relative;
-top:-120px;    
+top:-150px;    
 padding-top:10%;    
 width:100%;
 height:100%;
-padding-bottom:20%;
+padding-bottom:10%;
 background-color:rgba(0,0,0,0.3);
 }
 
@@ -358,8 +371,11 @@ background-color:rgba(0,0,0,0.3);
 
 .vidScreen {
   padding-bottom: 10px;
+
   height: 100%;
-  }
+
+}
+
  
  .audioPlayer{
   display:inline; 
@@ -381,11 +397,11 @@ background-color:rgba(0,0,0,0.3);
 --------------------*/
  
   .socCase {
-  margin:30px auto -1p% 30%;
+  
   width:100%;
   margin-left: -1%;
   margin-right:auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
   }
 
@@ -395,7 +411,3 @@ background-color:rgba(0,0,0,0.3);
   .navbar-nav > li {
   text-align: center;
   float: none !important; }
-
-
-
-
