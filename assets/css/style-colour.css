@@ -1,248 +1,264 @@
-
 .bigBlackBox {
   background-color: black;
   height: 10px;
-  width:  100%; }
-
+  width: 100%;
+}
 
 body {
-  background-image: url("http://www.gowild.nl/call-me-joe/assets/images/call-me-joe-bg.gif");
+  background-image: url("../assets/images/call-me-joe-bg.gif");
   background-size: cover;
-  text-decoration: none; 
+  text-decoration: none;
 }
+
 a:hover {
-  color: rgb(168,155,89);
-  text-decoration: none; }
+  color: rgb(168, 155, 89);
+  text-decoration: none;
+}
 
 a:visited {
-  color: rgb(168,155,89); }
-  
+  color: rgb(168, 155, 89);
+}
+
 h1 {
   font-family: Anton, sans-serif;
   font-size: 1rem;
   color: white;
-  text-align: center; }
+  text-align: center;
+}
 
 h2 {
-  
+
   font-family: Anton, sans-serif;
   font-size: 1.3em;
   color: white;
   text-align: center;
-  padding-top:3px;
+  padding-top: 3px;
 }
 
 h3 {
   font-family: Anton, sans-serif;
   font-size: 5rem;
-  color: rgba(0,0,0.0.3);
+  color: rgba(0, 0, 0.0.3);
   text-align: center;
-  padding-bottom:4%;}
-  
+  padding-bottom: 4%;
+}
+
 h4 {
   font-family: Anton, sans-serif;
   font-size: 1.5rem;
-  color: rgba(0,0,0.0.3);
+  color: rgba(0, 0, 0.0.3);
   text-align: center;
-  padding-bottom:5%;}
+  padding-bottom: 5%;
+}
 
 
 p {
-  font-family: 'PT Mono', monospace; 
+  font-family: 'PT Mono', monospace;
   text-align: center;
-  line-height:40px;
-  color:black;
+  line-height: 40px;
+  color: black;
 }
- 
-  
+
+
+
+
 /* ---------------------
          LOGO
  --------------------*/
+
 .joesLogo {
   font-family: Anton, sans-serif;
   font-size: 4rem;
-  color:#9f9354;
+  color: #9f9354;
   background-color: black;
   text-align: center;
   line-height: -10px;
-  height:70px;
-  
- }
- 
-  .just-call-me {
-   position:relative;
-  top:-60%;      
-  height:8px;
+  height: 70px;
+
+}
+
+.just-call-me {
+  position: relative;
+  top: -67%;
+  height: 8px;
   font-size: 55%;
-  transform: rotate(-5deg) }
+  transform: rotate(-5deg)
+}
 
 .joe {
-  position:relative;
-  top:-65%;
-  height:140px;
+  position: relative;
+  top: -65%;
+  height: 140px;
   font-size: 170%;
-  line-height:-60px;
-   }
-   
- 
- 
+  line-height: -60px;
+}
+
 /* ---------------------
          HEADER
- --------------------*/  
- 
- .container-fluid > .navbar-collapse.my-navbar {
+ --------------------*/
+
+.container-fluid>.navbar-collapse.my-navbar {
   float: none !important;
-  text-align: center; }
+  text-align: center;
+}
 
 .container-fluid {
-  background: black; }
+  background: black;
+}
 
 
 .joesHeader img {
 
-  width: 100%; }
+  width: 100%;
+}
 
 
 .joesHeader {
   position: relative;
   top: -20px;
   width: 100%;
-  background-color: none; }
+ 
+}
 
 .titleBox {
   position: relative;
-  top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 100%;
   font-family: Anton, sans-serif;
   font-size: 4rem;
-  color: rgb(168,155,89);
+  color: rgb(168, 155, 89);
   background-color: black;
-  text-align: center; }
-  
+  text-align: center;
+}
+
 /* ---------------------
   MEMBERS OF THE BAND
- --------------------*/  
+ --------------------*/
 
 .bigBlackBox {
   position: relative;
   top: 20px;
   background-color: black;
   height: 10px;
-  width: 100% !important ;}
+  width: 100% !important;
+}
 
 .texrCol {
-  color: #643a0d;}
+  color: #643a0d;
+}
 
 .joMenu {
   color: white;
   background-color: #f10000;
-  width: 100%; }
+  width: 100%;
+}
 
 .JoLanding {
-  background-color: black; }
-  
-  
+  background-color: black;
+}
 
 /* ---------------------
     GROUP PHOTO
- --------------------*/ 
+ --------------------*/
 
 .joBand {
   text-align: center;
-
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+}
 
 .joBand img {
   margin-bottom: 30px;
-  width: 300px; }
-  
+  width: 300px;
+}
+
 /* ---------------------
    MEMBER OF THE GROUP
- --------------------*/ 
+ --------------------*/
 
 .joMembers {
-  Background-color: pink; }
-  
+  Background-color: pink;
+}
+
 /* ---------------------
    BROWN TITLE BANNERS
   --------------------*/
 
 .joDivider {
-    
-  z-index:3;    
-  text-align:center;
-  height:35px;
-  line-height:35px;
+  position: relative;
+  top: 40px;
+  z-index: 3;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
   Background-color: black;
-  margin-bottom:0px}
-  
-  .joDivider1{
-  z-index:3;      
-  position:relative; 
-  top:0px;
-  text-align:center;
-  height:35px;
-  line-height:35px;
+  margin-bottom: 0px
+}
+
+.joDivider1 {
+  z-index: 3;
+  position: relative;
+  top: 0px;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
   Background-color: black;
-  }
- 
- .one{
-  position:relative;
-  top:-20px;    
- }
- 
-  .two{
-   position:relative;
-  top:-40px;    
- }
- 
-  .three{
-   position:relative;
-  top:-60px;    
- }
- 
-  .four {
-    position: relative;
-    top: -80px;
-  }
+}
 
-  .five {
-    position: relative;
-    top: -100px;
-  }
+.one {
+  position: relative;
+  top: -20px;
+}
 
-  .six {
-    position: relative;
-    top: -120px;
-  }
+.two {
+  position: relative;
+  top: -40px;
+}
 
-  .footer {
-    position: relative;
-    top: -180px;
-    height: 100px;
-  }
-  
-/*
-.joUpAndComingGigs {
-  background-color: red; }*/
-  
-  
-  /* ---------------------
+.three {
+  position: relative;
+  top: -60px;
+}
+
+.four {
+  position: relative;
+  top: -80px;
+}
+
+.five {
+  position: relative;
+  top: -100px;
+}
+
+.six {
+  position: relative;
+  top: -120px;
+}
+
+.footer {
+  position: relative;
+  top: -180px;
+  height: 70px;
+}
+
+.footer img {
+  width: 40px;
+  margin-top: 20px
+}
+
+/* ---------------------
     HOW TO BOOK US
   --------------------*/
 
 .salesShout {
   font-family: Anton, sans-serif;
   font-size: 3rem;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding-left: 3px;
   padding-right: 3px;
-
-  
 }
-
 
 .salesBabble {
   padding-top: 6px;
@@ -251,31 +267,29 @@ p {
   font-family: 'PT Mono', monospace;
   color: black;
   font-size: 1.5rem;
-  text-align: center; }
+  text-align: center;
+}
 
 .joFooter {
   padding-top: 10px;
   height: 50px;
   text-align: center;
-  color: black; }
+  color: black;
+}
 
-
-   
 /* ---------------------
   UP AND COMING GIGS
 --------------------*/
 
 .gigDate1 {
-  color:white;
+  color: white;
   background-color: black;
   text-align: center;
-  height:30px;
-  padding:5px;
-  
+  height: 30px;
+  padding: 5px;
   margin-bottom: 40px;
-  transform: rotate 3deg; }
-  
-
+  transform: rotate 3deg;
+}
 
 /* ---------------------
     MEMBERS OF THE BAND
@@ -288,126 +302,149 @@ p {
   border: 30px solid black;
   width: 140px;
   height: 140px;
-  margin: 0 auto; 
-  
+  margin: 0 auto;
+
 }
 
 .artist {
   font-family: Anton, sans-serif;
-   font-size: 1.5rem;
+  font-size: 1.5rem;
   color: #5f3c18;
   text-align: center;
-  
-
 }
+
 /*orange*/
-.memberBox1{
-position:relative;
-top:-20px;
-padding-top:5%;    
-width:100%;
-height:100%;
-padding-bottom:20%;
-background-color:rgba(250,142,5,0.3);
+
+.memberBox1 {
+  position: relative;
+  top: -20px;
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20%;
+  background-color: rgba(250, 142, 5, 0.3);
 }
 
 /*soft pink*/
-.memberBox2{
-position:relative;
-top:-40px;    
-padding-top:5%;    
-width:100%;
-height:100%;
-padding-bottom:20%;
-background-color:rgba(169,44,76,0.3);
+
+.memberBox2 {
+  position: relative;
+  top: -40px;
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20%;
+  background-color: rgba(169, 44, 76, 0.3);
 
 }
+
 /*yellow*/
-.memberBox3{
-position:relative;
-top:-60px;    
-padding-top:5%;    
-width:100%;
-height:100%;
-padding-bottom:20%;
-background-color:rgba(250,221,75,0.3);
+
+.memberBox3 {
+  position: relative;
+  top: -60px;
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20%;
+  background-color: rgba(250, 221, 75, 0.3);
 }
 
 /*lavender*/
-.memberBox4{
-position:relative;
-top:-80px;   
-padding-top:10%;    
-width:100%;
-height:130%;
-padding-bottom:20%;
-background-color:rgba(221,47,33,0.3);
+
+.memberBox4 {
+  position: relative;
+  top: -80px;
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20%;
+  background-color: rgba(221, 47, 33, 0.3);
 }
 
 /*grey*/
-.memberBox5{
-position:relative;
-top:-100px;    
-padding-top:10%;    
-width:100%;
-height:100%;
-padding-bottom:20%;
-background-color:rgba(95,22,136,0.3);
+
+.memberBox5 {
+  position: relative;
+  top: -100px;
+  padding-top:5%;
+  width: 100%;
+  height: 140%;
+  padding-bottom: 40%;
+  background-color: rgba(95, 22, 136, 0.3);
 
 }
 
-.memberBox6{
-position:relative;
-top:-150px;    
-padding-top:10%;    
-width:100%;
-height:100%;
-padding-bottom:10%;
-background-color:rgba(0,0,0,0.3);
+.memberBox6 {
+  position: relative;
+  top: -120px;
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 15%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
-
-  
-
 
 .vidScreen {
   padding-bottom: 10px;
-
   height: 100%;
-
 }
 
- 
- .audioPlayer{
-  display:inline; 
-   
-   
- } 
-  
- 
-.record img{
-  margin-top:30px;
-  margin-left:auto;
-  margin-right:auto;
-  margin-bottom:40px;
-  width:200px;
-    
-  }
+.audioPlayer {
+  display: inline;
+  margin-bottom: 60%;
+}
+
+.record img {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 200px;
+}
+
 /* ---------------------
     SOCIAL MEDIA
 --------------------*/
- 
-  .socCase {
-  
-  width:100%;
-  margin-left: -1%;
-  margin-right:auto;
-  margin-bottom: 15px;
+
+.fa {
+
+  font-size: 40px;
+  width: 50px;
   text-align: center;
-  }
+  text-decoration: none;
+  margin: 20px 20px;
+  color: black;
+}
+
+.fa:hover {
+  opacity: 1;
+}
+
+.fa-angle-up {
+
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#up_btn {
+  width: 50px;
+  height: 50px;
+}
+
+.container-fluid>.navbar-collapse.my-navbar {
+  float: none !important;
+  text-align: center;
+}
 
 @media (min-width: 768px) {
-  .navbar-nav > li {
-  display: inline-block; } }
-  .navbar-nav > li {
+  .container-fluid>.navbar-collapse.my-navbar li {
+    display: inline-block;
+  }
+}
+
+.container-fluid>.navbar-collapse.my-navbar li {
   text-align: center;
-  float: none !important; }
+  float: none !important;
+}

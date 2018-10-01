@@ -25,7 +25,7 @@ https://steviebolton.github.io/call-me-joe-static-html-project/
 
 Testing
 The site has tested for errors:. 
-https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.gowild.nl%2Fcall-me-joe%2F
+https://steviebolton.github.io/call-me-joe-static-html-project/
 
 Credits
 The CSS Styling I coded myself and used bootstrap as the grid I am also responsible for logo design and bg image which was compiled photoshop.
