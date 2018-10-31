@@ -8,11 +8,13 @@ body {
   background-image: url("https://steviebolton.github.io/call-me-joe-static-html-project/assets/images/call-me-joe-bg.gif");
   background-size: cover;
   text-decoration: none;
+  background-color: lightblue;
 }
 
 a:hover {
   color: rgb(168, 155, 89);
   text-decoration: none;
+  
 }
 
 a:visited {
@@ -59,7 +61,7 @@ p {
 }
 
 .button> img{
-  width:100px;
+  width:25px;
   display:inline-box;
   margin-right:auto !important;
   margin-left:auto !important;
@@ -150,9 +152,6 @@ p {
   width: 100% !important;
 }
 
-.texrCol {
-  color: #643a0d;
-}
 
 .joMenu {
   color: white;
@@ -244,13 +243,15 @@ p {
 
 .footer {
   position: relative;
-  top: -180px;
-  height: 70px;
+  top: 0px;
+  height: 200px;
+  bottom:0;
 }
 
 .footer img {
   width: 40px;
   margin-top: 20px
+  
 }
 
 /* ---------------------
@@ -321,7 +322,7 @@ p {
 
 /*orange*/
 
-.memberBox1 {
+.joeBox1 {
   position: relative;
   top: -20px;
   padding-top: 5%;
@@ -333,7 +334,7 @@ p {
 
 /*soft pink*/
 
-.memberBox2 {
+.joeBox2 {
   position: relative;
   top: -40px;
   padding-top: 5%;
@@ -346,7 +347,7 @@ p {
 
 /*yellow*/
 
-.memberBox3 {
+.joeBox3 {
   position: relative;
   top: -60px;
   padding-top: 5%;
@@ -358,7 +359,7 @@ p {
 
 /*lavender*/
 
-.memberBox4 {
+.joeBox4 {
   position: relative;
   top: -80px;
   padding-top: 5%;
@@ -370,7 +371,7 @@ p {
 
 /*grey*/
 
-.memberBox5 {
+.joeBox5 {
   position: relative;
   top: -100px;
   padding-top:5%;
@@ -381,14 +382,12 @@ p {
 
 }
 
-.memberBox6 {
+.joeBox6 {
   position: relative;
   top: -120px;
-  padding-top: 5%;
+  padding-top: 4%;
   width: 100%;
-  height: 100%;
-  padding-bottom: 15%;
-  background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 .vidScreen {
@@ -401,13 +400,8 @@ p {
   margin-bottom: 60%;
 }
 
-.record img {
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  width: 200px;
-}
+
+
 
 /* ---------------------
     SOCIAL MEDIA
@@ -454,3 +448,28 @@ p {
   text-align: center;
   float: none !important;
 }
+
+button{
+  animation: rotate360 1.2s linear infinite;  
+  animation-play-state: paused; 
+  background-color:rgba(0, 0, 0, 0.0);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+  
+}
+
+button:hover{
+  
+  animation-play-state: running;              
+}
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }           
+}
+
+button{
+  border:solid thick;
+  border-color: #cca19c;
+  border-radius:50%;
+  outline: 0;
+}
+

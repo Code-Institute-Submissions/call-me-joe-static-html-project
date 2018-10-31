@@ -1,35 +1,54 @@
-Call me Joe
-The band are a group dedicated to just playing for fun, but just recently they have not had as many bookings as they had hoped. Their goal is to have at least one booking per month. For them playing means more than just money. Their current website was set up by one of the band members, a standard wordpress template.
+## Call me Joe
+The band are a group dedicated to playing for fun, but just recently they did not have as many bookings as they had hoped for. 
 
-Having interviewed the group I learned that the band are deadly serious about their music. The band has been an anchor providing a solid grip through good and bad times.
+The Band's current website was set up by one of the band members, a standard wordpress template.
+Having interviewed the group I learned that the band are deadly serious about their music and want to increase the bookings to at least one or two a month.
 
-The assignment is to capture the hart and sole of the band in the website and bring in more bookings.
+### Assignment 
+To capture the hart and sole of the band on a one page website targeted at puba & clubs.
 
-UX
-To achieve this goal I needed to apply a no nonsense attitude. Not too many frills, just the basics. Key words being: Modern Fresh Retro Emotional.
+### The plan
+To achieve the goal set out by the band it was necessary to apply a no nonsense attitude. 
+Not too many frills, just the basics: 
+ 
+- Modern Fresh Retro Emotional.
+- Stark black & white imagery 
+- Venues board
+- New logo
+- Audio
+- Video
 
-The first section uses a clean black & white image instantly showing the magnetism of “Call me Joe” The logo and heading have been restyled and set in gold.
-
-The navigation lets us click smoothly to each section using an (ease in/out javascript snippet)
-
-In the body I have created a background compilation where we see scenes of the band playing with close-ups giving glimpses into their world of Rock & Roll. Each section is represented by a fresh transparent color connecting the whole site together. The logo was redesigned just using css and the font Anton from google fonts
-
-The sketches:
+### Design prep:
 https://steviebolton.github.io/call-me-joe-static-html-project/ideas/
 
-code:
-css, javascript, html
+### Features
+* Sound files:The webpage contains 3 clickable audio records. Click on click off.
+* Videos: 3 videos available to watch the band playing live.
+* Background image containing scenes of the band in action.
+* Highlighted sections using CSS transparent color fills.
+* Redesigned logo.
+* Automated telephone and email address buttons.
+* Social media buttons.
 
-Deployment:
-https://steviebolton.github.io/call-me-joe-static-html-project/
+### Future features
+Online shop for merchandising.
 
-Testing
+### Code:
+HTML, CSS, Javascript, Bootstrap framework.
+
+### Deployment:
+This page was deployed on github pages, information about this can be found here:
+https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+
+### Testing
 The site has tested for errors:. 
-https://steviebolton.github.io/call-me-joe-static-html-project/
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fsteviebolton.github.io%2Fcall-me-joe-static-html-project%2F
+and look at using developer tools from Google.
 
-Credits
-The CSS Styling I coded myself and used bootstrap as the grid I am also responsible for logo design and bg image which was compiled photoshop.
+### Credits.
+Logo design achieved using CSS - Background images were put together using photoshop.
+The text was jointly written.
+All art & code by Steve Bolton.
 
-Content
-The body text was jointly written by the band and myself
+Many thanks to CODE INSTITUTE.
 
