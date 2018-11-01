@@ -473,3 +473,10 @@ button{
   outline: 0;
 }
 
+.tel{
+  top:20px;
+  padding:10px;
+  color: #a89b59;
+  letter-spacing:0.2em;
+}
+
